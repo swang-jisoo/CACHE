@@ -1,0 +1,9 @@
+-f https://download.pytorch.org/whl/cpu/torch_stable.html
+-f https://data.pyg.org/whl/torch-1.4.0+cpu.html
+torch==1.4.0+cpu
+torch-scatter==2.0.4
+torch-sparse==0.6.0
+torch-geometric==1.6.3
+scikit-learn
+tqdm
+ipdb
