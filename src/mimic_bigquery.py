@@ -1,15 +1,15 @@
 # Import libraries
 import os
 import pandas as pd
-
-# Import for accessing MIMIC dataset using Google BigQuery.
-from google.cloud import bigquery
+from google.cloud import bigquery 
 
 # Run the codes below on terminal
 # gcloud auth login
 # gcloud auth application-default login
-# gcloud iam service-accounts create swang.jislee@gmail.com
+# gcloud iam service-accounts create GOOGLE_ACCOUNT
 # gcloud config set project clinical-entity-extraction
+
+# https://github.com/MIT-LCP/mimic-code/discussions/1154
 
 project_id = 'clinical-entity-extraction'
 os.environ["GOOGLE_CLOUD_PROJECT"] = project_id
