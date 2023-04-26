@@ -7,3 +7,6 @@ torch-geometric==1.6.3
 scikit-learn
 tqdm
 ipdb
+
+pandas-gbq
+google-cloud-bigquery
