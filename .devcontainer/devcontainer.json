@@ -7,11 +7,11 @@
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// Google Cloud CLI to connect vscode to Google Cloud
-	"features": {
-		"ghcr.io/dhoeric/features/google-cloud-cli:1": {
-			"version": "latest"
-		}
-	},
+	// "features": {
+	// 	"ghcr.io/dhoeric/features/google-cloud-cli:1": {
+	// 		"version": "latest"
+	// 	}
+	// },
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],

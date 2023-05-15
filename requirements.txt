@@ -9,4 +9,3 @@ tqdm
 ipdb
 
 pandas-gbq
-google-cloud-bigquery
